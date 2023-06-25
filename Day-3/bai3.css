@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+form{
+    width: 30%;
+    margin: auto;
+    padding: 100px 0;
+}
+div{
+    margin-top: 16px;
+   }
+   
+label{
+       display: inline-block;
+       vertical-align: middle;
+       width: 132px;px;
+   }   
+.form-name input, 
+.form-password input, 
+.form-city input, 
+.form-employment input{
+    width: 50%;
+}
+.form-selection{
+    width: 30%;
+    margin: auto;
+    padding: 160px 0;
+    font-size: 16px;
+}
+.form-role{
+    display: flex;
+}
+.form-sign_in{
+    display: flex;
+}
+.form-access input, select{
+    border: solid 1px #0a96b9;
+}
+
+.form-access_button{
+    margin-left: 130px;
+}
+.form-access_button button{
+    padding: 2px 12px;
+    border: solid 1px #0a96b9;
+    border-radius: 4px;
+}

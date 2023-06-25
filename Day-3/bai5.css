@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.overall{
+    width: 80%;
+    margin: auto;
+    padding: 100px 0;
+    text-align: center;
+}
+.size{
+    margin: auto;
+    width: 120px;
+    background-color: #7f9ae0;
+    padding: 8px 12px;
+    color: #fff;
+}
+.title{
+    font-size: 40px;
+    margin: 6px auto;
+}
+.title span{
+    color: #42a2e2
+}
+.overall p {
+    margin: 20px 0;
+}
+.button-features{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    padding: 16px 32px;
+    font-size: 16px;
+    background: #2c3033;
+    border-radius: 8px;
+    margin: 0 8px;
+}

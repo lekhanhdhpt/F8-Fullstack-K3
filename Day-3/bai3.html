@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bai3.css">
+    <title>Form Access Manager</title>
+</head>
+<body>
+    <form action="" class="form-selection" >
+        <div class="form-name">
+            <label for="name">Username</label>
+            <input type="text" /  />
+        </div>
+        <div class="form-password">
+            <label for="password">Password</label>
+            <input type="password" />
+        </div>
+        <div class="form-city">
+            <label for="">City of:</label>
+            <input type="text" />
+        </div>
+        <div class="form-employment">
+            <label for="">Employment</label>
+            <input type="text" />
+        </div>
+
+        <div class="form-web_server">
+            <label for="" >Web sever:</label>
+            <select if="form-web_server" name="web">
+                <option value="0" hidden>--Choose a server--</option>
+                <option value="1">Linux</option>
+                <option value="2">IOS</option>
+                <option value="3">MACOS</option>
+                <option value="4">WINX</option>
+            </select>
+        </div>
+        <div class="form-role">
+            <label for="">Please specify your role:</label>
+            <div class="selection">
+                <input type="radio" name="employment"/> Admin
+                <input type="radio" name="employment"/> Engineer 
+                <input type="radio" name="employment"/> Manager
+                <input type="radio" name="employment"/> Guest
+            </div>
+        </div>
+        <div class="form-sign_in">
+            <label for="">Single Sign-on to the following</label>
+            <div class="form-check_box">
+                <input type="checkbox" /> Mail 
+                <input type="checkbox" /> Payroll
+                <input type="checkbox" /> Self-service
+            </div>
+        </div>
+        <div class="form-access_button">
+            <button>login</button>
+            <button>reset</button>
+        </div>
+    </form>
+</body>
+</html>
