@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family:'Poppins' sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer {
+    background-color: #334455;
+    border-radius: 5px;
+    margin: 5% 10%;
+    padding: 2% 2%;
+}
+.form-subcribes p {
+    font-size: 15px;
+    font-weight: 300;
+    margin: 10px 0;
+    width: 580px;
+}
+.form-subcribes h2 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 28px;
+}
+.form-subcribes span {
+    color: rgb(193, 147, 21);
+}
+.form-subcribes {
+    color: #fff;
+    padding: none;
+    padding: auto 8px;
+    background-color: #334455;
+}
+footer:hover input {
+    color: rgb(150, 123, 15);
+}
+footer input ,
+footer .form-subcribes button {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+}
+.form-subcribes button {
+    background-color: #f2d741;
+}
+.form-subcribes:hover input[type="email"] {
+    background-color: #ddd;
+    color: grey;
+}
+.form-subcribes:hover button {
+    color: #fff;
+}
+.form-subcribes:hover input {
+    color: grey;
+}
