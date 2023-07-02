@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&family=Roboto:wght@300;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato' ,sans-serif;
+}
+body {
+    padding-top: 20px;
+}
+.overall {
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+}
+.form {
+    width: 40%;
+    margin: 5% 10%;
+    padding: 2% 2%;    
+    justify-content: center;
+}
+.form h1{
+    font-family: 'Lobster' ,cursive;
+    font-size: 50px;
+    margin-bottom: 35px;
+    font-weight: 500;
+}
+.form p span {
+    color: rgb(223, 112, 104);
+    font-weight: 500;
+    font-size: 18px;
+}
+.form p {
+    color: #c3c3c3;
+    width: 580px;
+    font-size: 18px;
+}
+button {
+    margin-left: 300px;
+    padding: 8px 32px;
+    background-color: #ec584d;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+.user-form {
+    display: flex;
+}
+.icon {
+    padding: 20px;
+    width: 14px;
+    height: 14px;
+    background: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+  
+.icon i {
+    font-size: 17px;
+    color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+}
+  
+.user-input {
+    position: relative;
+}
+  
+.user-input input , .user-input select{
+    height: 50px;
+    color: #dddddd;
+    width: 510px;
+    padding: 0 10px;
+    border: solid 1px #dddddd;
+    font-size: 16px;
+}
+.user-input i.fa-star {
+    justify-content: left;
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    font-size: 10px;
+    color: #dddddd;
+}
+  
+.user-input i.fa-sort {
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    transform: translateY(-50%);
+    font-size: 15px;
+    color: #dddddd;
+}
+.user-message{
+    display: flex;
+}
+
+.input-massage {
+    position: relative;
+}
+.mess-icon{
+    padding: 20px 0;
+    width: 54px;
+    height: 240px;
+    background: #ddd;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.user-massage {
+    position: relative;
+}
+.input-massage textarea{
+    height: 278px;
+    color: #dddddd;
+    width: 510px;
+    padding: 0 10px;
+    border: solid 1px #dddddd;
+    font-size: 16px;
+    padding-right: 30px;
+    font-family: 'Lato', sans-serif;
+}
+.input-massage i.fa-star {
+    position: absolute;
+    top: 18px;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 10px;
+    color: #dddddd;
+}

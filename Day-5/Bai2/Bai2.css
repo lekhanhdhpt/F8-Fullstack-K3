@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto' ,sans-serif;
+}
+.Overall {
+    margin: 80px auto;
+    width: 80%;
+}
+.content {
+    width: 1000px;
+    margin-bottom: 10px;
+}
+.content label {
+    display: inline-block;
+    width: 100%;
+    background-color: rgb(217,89,37);
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 16px;
+    font-weight: 400;
+}
+.content label i.fa-minus {
+    display: none;
+} 
+.line-content {
+    font-size: 16px;
+    font-weight: 400;
+    width: 1000px;
+}
+.content .line-content {
+    padding: 12px 16px;
+    font-size: 16px;
+    line-height: 1.4;
+    box-shadow: 1px 1px 1px rgba(116, 108, 108);
+    transition: 0.3s ease-in-out;
+    display: none;
+}
+
+.content input:checked ~ label i.fa-minus {
+    display: inline-block;
+}
+
+.content input:checked ~ label i.fa-plus {
+    display: none;
+}
+
+.content input:checked ~ .line-content {
+    display: block;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
