@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito' ,sans-serif;
+}
+
+body {
+    background-image: url(http://uiwebsoft.com/justlog/login-one/images/login-bg2.jpg);
+    background-position: bottom left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-width: 100vw;
+    min-height: 100vh;
+    color: #717171;
+}
+.container a {
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    width: 800px;
+    height: 500px;
+    background-color: #ff574d;
+    border-radius: 10px;
+}
+
+/* Left */
+.login-left {
+    width: 45%;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+    position: relative;
+    padding: 50px 30px;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+}
+.login-left p {
+    margin: 25px 0;
+}
+
+.login-left button {
+    padding: 10px 32px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: #ea564e;
+    margin: 25px 0;
+    font-size: bold;      
+}
+.login-icon {
+    padding: 8px 16px;
+    background-color: #ff574d;
+}
+.logo span {
+    font-size: 32px;
+    font-weight: 500;
+    color: #ff574d;
+}
+.logo {
+    background-color: #fff;
+    padding: 10px 16px;
+    border-radius: 10px;
+}
+.element {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.element h1 {
+    color: #fff;
+    margin-left: 16px;
+}
+.login-icon i {
+    padding: 10px;
+    background-color: #e75b4c;
+    border-radius: 4px;
+    margin: 20px 4px;
+    color: #fff;
+}
+.login {
+    position: absolute;
+    top: 45%;
+    left: 93%;
+}
+.login i {
+    padding: 12px;
+    font-size: 20px;
+    background-color: #fff;
+    color: #ff574d;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 0 rgba(51, 49, 49, 0.5);
+}
+
+/* right */
+
+.login-right {
+    width: 55%;
+    background-color: #ffffff;
+    padding: 80px 20px;
+    border-radius: 0 10px 10px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.login-right h2 {
+    font-size: 30px;
+}
+  
+.login-right h2 span {
+    font-size: 30px;
+    color: #ff574d;
+}
+.login-right h2::after {
+    content: "";
+    width: 15%;
+    height: 2px;
+    background: #ff574d;
+    display: block;
+    margin: 20px auto;
+}
+.login-right input[type="email"],
+.login-right input[type="password"] {
+  width: 100%;
+  padding: 16px 10px;
+  margin: 12px 0;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.form-element{
+    width: 100%;
+    margin: 20px 0;
+}
+.password-problem{
+    margin-left: 100px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #717171;
+}
+
+.password-problem:hover{
+  color:#ff574d;
+}
+
+.login-right button {
+  width: 100%;
+  padding: 16px 20px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff574d;
+  color: #fff;
+  font-size: 16px;
+}
+.login-right p a{
+    text-decoration: none;
+    color: #717171;
+    margin-top: 20px;
+}
+.login-right p a:hover{
+  color: #ff574d;
+}
