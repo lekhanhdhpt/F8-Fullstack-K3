@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Asap' , sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Profile {
+    position: relative;
+}
+.background-img {
+    width: 100vw;
+    height: 500px;
+    overflow: hidden;
+}
+.logo-img {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    background: #fff;
+    width: 250px;
+    margin: 66px 30px;
+}
+.profile-info {
+    position: absolute;
+    top: 370px;
+    left: 400px;
+    color: #fff;
+}
+.info {
+    display: flex;
+}
+.info span {
+    font-size: 25px;
+    font-weight: 600;
+    margin-right: 20px;
+    padding: 10px;
+}
+.profile-item {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 0 50px;
+}
+
+nav {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+
+nav label {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+label {
+    display: block;
+}
+input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"]:checked ~ label::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background: #bf4240;
+    margin: 8px auto;
+}
+label {
+    display: block;
+    text-decoration: none;
+    padding: 12px;
+    color: #1d1c1c;
+}
+  
+input[type="radio"]:checked + label {
+    color: #bf4240;
+}

@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Asap', sans-serif;
+}
+.overall {
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+span{
+    font-size: 25px;
+}
+h2{
+    font-size: 18px;
+}
+
+h2 span::after{
+    content: '';
+    width: 820px;
+    height: 3px;
+    margin: 15px 0 0 15px;
+    position: absolute;
+    background-color: #e7e6e6;
+}
+input[type="radio"] {
+    display: none;
+}
+
+nav {
+  display: flex;
+  margin: 20px auto;
+  justify-content: center;
+}
+
+nav .item {
+  margin: 2px 0;
+}
+
+nav label {
+  padding: 10px 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+label {
+  display: block;
+  padding: 10px;
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+}
+
+label span{
+    font-size: 11px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+input[type="radio"]:checked + label {
+  background-color: #ca8d3d;
+  border-radius: 25px;
+  color: #000;
+}
+
+input[type="radio"] + label {
+    margin: 0 10px;
+    color: #000;
+    background-color: #ece8e8;
+    border-radius: 25px;
+}
+
+.content img {
+    width: 400px;
+    height: 220px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.info-1, .info-2, .info-3, .info-4, .info-5, .info-6 {
+    position: relative;
+}
+.direction-top, .direction-bot {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    color: #fff;
+}
+
+.available-inf_top, .available-inf_bot {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    color: #fff;
+    font-weight: 500;
+}
+
+
+  
