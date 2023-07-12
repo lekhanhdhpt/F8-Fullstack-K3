@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+.container{
+    background: #dcdce0;
+    padding: 20px 0;
+}
+
+.menu{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    padding: 16px 0;
+    justify-content: space-between;
+}
+
+.menu-action{
+    display: flex;
+}
+
+.menu-action nav ul{
+    display: flex;
+}
+
+.menu-action nav ul li{
+    margin: 15px 15px;
+    list-style: none;
+}
+
+.menu-action nav ul li a{
+    color: #464545;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 25px;
+}
+
+.menu-action nav ul li a.active{
+    color: #909090;
+}
+
+.menu-action nav ul li a::after{
+    display: inline-block;
+    content: '\f078';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 600;
+    width: 25px;
+    height: 25px;
+    font-size: 16px;
+    border-radius: 50%;
+    color: #464545;
+    text-align: center;
+    line-height: 30px;
+}
+
+.menu-action i{
+    align-items: center;
+    justify-content: center;
+    margin: auto 8px;
+    font-size: 20px;
+    color: #464545;
+}
+
+.main{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 32px;
+    background: #f5f2f2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+.menu-element{
+    display: flex;
+}
+
+.main .main-right{
+    width: 80%;
+}
+
+.main .main-left{
+    width: 35%;
+    border-right: 2px solid #3333331d;
+}
+
+
+.main .menu-element-left{
+    width: 50%;
+}
+.main h3{
+    font-size: 1.1rem;
+    font-weight: 900;
+    padding-left: 20px;
+}
+
+.main p{
+    margin: 20px 0;
+}
+
+.main p a{
+    text-decoration: none;
+    padding-left: 32px;
+    color: #464545;
+    font-size: 16px;
+    font-weight: 600;
+}
+
