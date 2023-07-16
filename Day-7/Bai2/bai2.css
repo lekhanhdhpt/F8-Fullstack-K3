@@ -28,6 +28,8 @@ body {
     background: #fff;
     width: 250px;
     margin: 66px 30px;
+    padding: 40px;
+    border-radius: 4px;
 }
 .profile-info {
     position: absolute;

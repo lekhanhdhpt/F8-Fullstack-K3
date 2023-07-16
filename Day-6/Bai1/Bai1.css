@@ -33,12 +33,13 @@ a {
     color: #5f5e5e;
 }
 
-.menu > li::after {
+/* .menu > li::after {
     content: "";
     width: 100%;
     position: absolute;
     display: inline-block;
-}
+    cursor: pointer;
+} */
 
 .menu > li:hover > a,
 .menu > li:hover:not(.blank) {

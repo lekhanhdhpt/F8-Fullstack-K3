@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    align-items: center;
+    margin: 30px auto;
+}
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.content {
+    flex-basis: 30%;
+    padding: 20px;
+    margin: 20px 20px;
+    border: 3px solid rgb(169, 164, 164);
+    position: relative;
+    overflow: hidden;
+    transition: 0.8s ease-in;
+    cursor: pointer;
+}
+.content-element {
+    height: 210px;
+    padding: 10px;
+    display: block;
+}
+.behind-element {
+    height: 210px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 10px;
+    display: none;
+}
+.content:hover .content-element{
+    display: none;
+}
+.content:hover .behind-element{
+    display: block;
+}
+.content .content-element i {
+    font-size: 35px;
+    color: #b98169;
+    margin: 10px;
+}
+.behind-element h2{
+    padding: 0;
+    margin: 20px 0;
+    color: #fff;
+  }
+  
+.behind-element p{
+    padding: 0;
+    margin: 20px 0;
+    color: #fff;
+  }
+  
+.behind-element p span {
+    padding-left: 10px;
+  }
+.behind-element {
+    height: 210px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 10px;
+    display: none;
+}
+  
+.behind-element::after {
+    content: "";
+    position: absolute;
+    width: calc(100%);
+    height: calc(100%);
+    top: 2px;
+    left: 2px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    transition: all 0.5s;
+}
+
+.behind-element::before {
+    content: "";
+    width: calc(100% + 70px);
+    height: calc(100% + 70px);
+    background-image: url(../img/33a896b03e38f7ce4170c2f761876339.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 100%;
+    left: -50px;
+    bottom: 4px;
+    background-color: #a16f5a;
+    z-index: -2;
+    filter: grayscale(60%);
+    transition: all 0.5s;
+}
+.content:hover .behind-element::before{
+  top: -50px;
+}
+
+.btn{
+  cursor: pointer;
+  width: fit-content;
+}
+
+.btn span i{
+  font-size: 1rem;
+  color: #fff;
+  padding: 4px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+
+.behind-element .btn:hover span i{
+  background-color: #fff;
+  color: #000;
+}
+
+.content:hover .behind-element .btn {
+  opacity: 1;
+  background: rgb(153, 94, 16);
+  border-radius: 10px;
+}

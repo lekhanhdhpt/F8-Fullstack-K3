@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  outline: none;
+}
+
+.container {
+  width: 55%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 70px auto;
+  background-color: #fffbfb;
+  padding: 10px 30px;
+  border-radius: 16px;
+}
+
+h1, p {
+  margin: 20px 0;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.content {
+  position: relative;
+  width: 310px;
+  margin: 10px 0;
+}
+
+.content input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #a4a3a3;
+  color: #797878;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1em;
+  transition: background-color 0.3s;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.content span {
+  position: absolute;
+  color: #797878;
+  left: 0;
+  padding: 10px;
+  font-size: 1rem;
+  transition: 0.5s;
+}
+
+.content input:focus{
+  border-color: #124c8e;
+}
+
+.content input:valid ~ span,
+.content input:focus ~ span {
+  color: #797878;
+  transform: translateX(5px) translateY(5px);
+  font-size: 0.5rem;
+  padding: 0 10px;
+  background-color: #fff;
+}
+
+.content input:valid {
+  background-color: #dceaee;
+  border-color: #124c8e;
+  color: #000;
+}
+
+.content input:valid ~ span{
+  background-color: transparent;
+}
+
+.content select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #a6a4a4;
+  color: #888;
+  border-radius: 5px;
+  font-size: 1rem;
+  outline: none;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.content select option:hover{
+  background-color: #e5f3f7;
+}
+.content:last-child {
+  width: 100%;
+}
+
+.content:last-child textarea {
+  width: 100%;
+  height: 250px;
+  border: 1px solid #a6a4a4;
+  color: #888;
+  border-radius: 5px;
+  position: relative;
+  padding: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.055);
+}
+
+.content:last-child textarea::placeholder {
+  color: #888;
+  pointer-events: none;
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+  transition: 0.6s;
+}
+
+.content textarea:focus + span {
+  color: #888;
+  transform: translateX(5px) translateY(5px);
+  font-size: 0.65rem;
+  padding: 0 16px;
+  background-color: #fff;
+}
+.content:last-child textarea:focus::placeholder {
+  color: transparent;
+}
+
+.content:last-child textarea:focus ~ span{
+  display: block;
+}
+button{
+  padding: 16px 24px;
+  border: none;
+  border-radius: 16px;
+  background-color: #2079df;
+  color: #fff;
+  cursor: pointer;
+}
+span.mess {
+  color: #888;
+  display: none;
+  position: absolute;
+  top: -6px;
+  left: 0;
+  font-size: 8px;
+  transition: 1s;
+}
+

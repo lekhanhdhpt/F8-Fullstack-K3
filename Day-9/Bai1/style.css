@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #171948;
+  font-family: "Space Grotesk", sans-serif;
+  font-style: bold;
+  margin-bottom: 8px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid #c6c6cb;
+  background: #c6c6cb;
+  border-radius: 16px;
+  padding: 5px;
+}
+p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #9f9fa1;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 8px;
+}
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: 'Inter' , sans-serif;
+  width: 100vw;
+  min-height: 100vh;
+  margin: 30px auto;
+  padding-top: 50px;
+}
+.content {
+  position: relative;
+}
+.content::before {
+  content: "";
+	font-family: "Space Grotesk" , sans-serif;
+	position: absolute;
+	top: 3px;
+	left: 50%;
+	font-size: 16px;
+	margin: 0;
+	border-radius: 50%;
+	padding: 10px;
+	color: #58cdb9;
+	background-color: #34d46f27;
+	text-align: center;
+}
+.content::after {
+  content: "";
+  position: absolute;
+  width: calc(80%);
+  height: calc(100%);
+  top: 2px;
+  left: 2px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  transition: all 0.5s;
+}
+
+.content {
+  width: 800px;
+	height: 150px;
+	position: relative;
+	transition: 0.5s linear;
+}
+
+.text {
+  width: 50%;
+	position: absolute;
+	left: 0;
+	text-align: right;
+	padding: 0px 30px;
+	box-sizing: border-box;
+	transition-duration: all;
+	transition-delay: 0.25s;
+	transition-duration: 0.1s;
+}
+.timeline {
+  position: absolute;
+	padding: 10px 30px;
+	width: 50%;
+	height: 100%;
+	right: 0;
+	text-align: left;
+	transition-delay: 0.4s;
+}
+
+.time {
+  width: 80px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.main-content:hover > .content  a {
+  color: #fff;
+	background-color: #9f6116e1;
+  border-radius: 16px;
+  border-width: 50%;
+}
+.main-content:hover > .content {
+  transform: rotateY(180deg);
+}
+.main-content:hover > .content > .text {
+  text-align: left;
+  transform: rotateY(180deg);
+}
+
+.main-content:hover > .content > .timeline > .time {
+  flex-direction: row;
+  transform: rotateY(180deg);
+}
+img {
+  max-width: 350px;
+}
