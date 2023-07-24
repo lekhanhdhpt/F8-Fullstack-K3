@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../Day-11/reset.css" />
+    <link rel="stylesheet" href="../Day-11/style.css" />
+    <title>Page Clone</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-page">
+          <input type="checkbox" id="page-element" />
+          <div class="header__logo">
+            <img src="../Day-11/image/logo.svg" alt="logo" class="logo" />
+          </div>
+          <label for="page-element" class="menu-icon">
+            <i class="header-page__icon fa-solid fa-bars"></i>
+          </label>
+          <div class="header-page__navbar">
+            <nav class="navbar">
+              <ul>
+                <li>
+                  <a href="#!">Home</a>
+                </li>
+                <li>
+                  <a href="#menu">Menu</a>
+                </li>
+                <li>
+                  <a href="#service">Service</a>
+                </li>
+                <li>
+                  <a href="#shop">Shop</a>
+                </li>
+              </ul>
+            </nav>
+            <form method="get" class="form">
+              <div class="action">
+                <i class="search-icon fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search" class="form-input" />
+                <i class="cart-icon fa-solid fa-basket-shopping"></i>
+              </div>
+            </form>
+          </div>
+        </div>
+
+    
+        <section class="info">
+          <div class="info-home">
+            <div class="info__element">
+              <p class="title">More than Faster</p>
+              <span class="icon">
+                <img src="../Day-11/image/strawberry.svg" alt="" />
+              </span>
+            </div>
+            <h1 class="heading tiltle-1">
+              Groceries delivered in as little as
+              <span class="highlight-heading">2 hours</span>
+            </h1>
+            <p class="elmt">
+              Grocen atssures fresh grocery every morning to your family without
+              getting out in this pandemic.
+            </p>
+            <div class="info__action">
+              <a href="#!" class="btn">Order Now</a>
+              <button class="btn-action">
+                <span class="info__button-play">
+                  <img src="../Day-11/image/button-play.svg" alt="" />
+                </span>
+                <span class="elmt-action">Order Process</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="image">
+            <img src="../Day-11/image/header-img.png" alt="" />
+          </div>
+        </section>
+      </div>
+    </header>
+
+    <main>
+      <section id="menu" class="menu">
+        <div class="container">
+          <p class="elmt menu__elmt">What We Serve</p>
+          <h2 class="heading tiltle-2">
+            Fruit And Vegetable Delivered To Your Home
+          </h2>
+
+          <div class="list-item">
+            <div class="menu__item">
+              <div class="menu__item__bg"></div>
+              <div class="menu__info">
+                <div class="menu__icon">
+                  <img src="../Day-11/image/service-ic1.svg" alt="" />
+                </div>
+                <span class="title">Free shipping</span>
+                <p class="elmt">
+                  Enjoy Order in a hand using the fresness of groceries
+                </p>
+              </div>
+            </div>
+
+            <div class="menu__item">
+              <div class="menu__item__bg"></div>
+              <div class="menu__info">
+                <div class="menu__icon">
+                  <img src="../Day-11/image/service-ic2.svg" alt="" />
+                </div>
+                <span class="title">15 days returns</span>
+                <p class="elmt">
+                  Order in a handy way using the freshness of the groceries.
+                </p>
+              </div>
+            </div>
+
+            <div class="menu__item">
+              <div class="menu__item__bg"></div>
+              <div class="menu__info">
+                <div class="menu__icon">
+                  <img src="../Day-11/image/service-ic3.svg" alt="" />
+                </div>
+                <span class="title">Secure checkout</span>
+                <p class="elmt">
+                  If you get rotten items - return immediately to us.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="service" class="service">
+        <div class="container">
+          <div class="service__element">
+            <div class="service__img content-1">
+              <img src="../Day-11/image/feat.png" alt="" />
+            </div>
+            <div class="service__info content-2">
+              <p class="elmt service__elmt">WHY CHOOSE US</p>
+              <h2 class="heading tiltle-2">Find Favorites And Discover New Ones</h2>
+              <p class="elmt">
+                At vero eos et accusamus et iusto odio dignissimos ducimus
+                blanditiis praesen voluptatum deleniti.
+              </p>
+              <div class="service__btn-action">
+                <a href="#!" class="btn service__btn">Explore Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="service service-2">
+        <div class="container">
+          <div class="service__element">
+            <div class="service__info content-2">
+              <p class="elmt service__elmt">HOME DELIVERY</p>
+              <h2 class="heading tiltle-2">
+                Sit At Home We Will Take Care Your Order
+              </h2>
+              <p class="elmt">
+                At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                blanditiis praesentium voluptatum deleniti atque corrupti quos
+              </p>
+              <div class="service__btn-action">
+                <a href="#!" class="btn service__btn">Explore Now</a>
+              </div>
+            </div>
+
+            <div class="service__img content-1">
+              <img src="../Day-11/image/feat2.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="shop" class="contact">
+        <div class="container">
+          <div class="contact__content">
+            <img
+              src="../Day-11/image/mobile.svg"
+              alt="mobile"
+              class="contact__img"
+            />
+            <div class="contact__info">
+              <p class="elmt contact__elmt">Download our app</p>
+              <h2 class="heading tiltle-2">
+                Get The Groceries App Order More Easily.
+              </h2>
+              <p class="elmt">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut.
+              </p>
+              <div class="contact__row">
+                <div class="contact__icon">
+                  <a href="#!">
+                    <img src="../Day-11/image/apple.svg" alt="apple" />
+                  </a>
+                  <span><a href="#!">App Store</a></span>
+                </div>
+
+                <div class="contact__icon">
+                  <a href="#!">
+                    <img src="../Day-11/image/playstore.svg" alt="playstore" />
+                  </a>
+                  <span><a href="#!">Play Store</a></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__content">
+          <div class="footer__list-item">
+            <div class="footer__item item-1">
+              <div class="logo">
+                <img src="../Day-11/image/logo.svg" alt="" />
+              </div>
+              <p class="elmt">
+                Fast delivery, which is active all over the world, serves with
+                many transportation vehicles.
+              </p>
+            </div>
+
+            <div class="footer__item">
+              <p class="title">Company</p>
+              <ul>
+                <li>
+                  <a href="#!">About Us</a>
+                </li>
+                <li>
+                  <a href="#!">Blog</a>
+                </li>
+                <li>
+                  <a href="#!">All Products</a>
+                </li>
+                <li>
+                  <a href="#!">Locations Map</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer__item">
+              <p class="title">Services</p>
+              <ul>
+                <li>
+                  <a href="#!">Order tracking</a>
+                </li>
+                <li>
+                  <a href="#!">Wish List</a>
+                </li>
+                <li>
+                  <a href="#!">My account</a>
+                </li>
+                <li>
+                  <a href="#!">Terms & Conditions</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer__item item-1 item-4">
+              <p class="title">Get In Touch</p>
+              <p class="elmt">
+                Fast delivery, which is active all over the world, serves with
+                many transportation vehicles.
+              </p>
+            </div>
+          </div>
+
+          <div class="footer__row">
+            <div class="footer__row-left">
+              <p class="elmt">All Rights Reserved @ BESNIK 2021</p>
+            </div>
+
+            <div class="footer__row-right">
+              <a href="#!">Terms & Conditions</a>
+              <a href="#!">Privacy & Policy</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
