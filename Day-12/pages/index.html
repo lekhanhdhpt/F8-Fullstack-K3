@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style/css/style.css">
+    <link rel="stylesheet" href="../style/css/reset.css">
+    <link rel="stylesheet" href="../style/css/grid.css">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.css"
+      integrity="sha512-Z0kTB03S7BU+JFU0nw9mjSBcRnZm2Bvm0tzOX9/OuOuz01XQfOpa0w/N9u6Jf2f1OAdegdIPWZ9nIZZ+keEvBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Vikinger</title>
+  </head>
+  <body>
+    <main>
+      <div class="landing">
+        <input
+          type="radio"
+          name="landing__tab-switch"
+          id="login"
+          hidden
+          checked
+        />
+        <input type="radio" name="landing__tab-switch" id="register" hidden />
+        <div class="lading__circle"></div>
+        <div class="landing-content">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-xxl-6">
+                <div class="content-info">
+                  <div class="logo">
+                    <img class="logo-img" src="../assets/360_F_312556258_SxqV3eQs7PxSObaWHoXVM6Fwzy3GD8GW.jpg" />
+                  </div>
+                  <h2 class="sub-heading">WELCOME TO</h2>
+                  <h1 class="heading">VIKINGER</h1>
+                  <p class="desc">
+                    The next generation social network & community! Connect with
+                    your friends and play with our quests and badges
+                    gamification system!
+                  </p>
+                  <div class="tab-switch">
+                    <label for="login">Login</label>
+
+                    <label for="register">Register</label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-xxl-6">
+                <div class="form-login">
+                  <div class="custom-form">
+                    <div class="jet-plane">
+                      <img src="../assets/jet-plane.png" alt="form" />
+                    </div>
+                    <h3 class="form__heading">Account Login</h3>
+                    <!-- Form -->
+                    <form class="form">
+                      <div class="row">
+                        <div class="col-12">
+                          <div class="input-group">
+                            <input type="email" placeholder=" " id="email" />
+                            <label for="email">Username or Email</label>
+                          </div>
+                        </div>
+                      
+                        <div class="col-12">
+                          <div class="input-group">
+                            <input
+                              type="password"
+                              placeholder=" "
+                              id="password"
+                            />
+                            <label for="password">Password</label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form__row">
+                        <label
+                          ><input type="checkbox" checked hidden />
+                          <span></span>Remember Me</label
+                        >
+                        <a href="#!"> Forgot Password?</a>
+                      </div>
+                      <div class="form__btn">
+                        <button class="btn" type="submit">
+                          Login to your Account!
+                        </button>
+                      </div>
+                      <p class="form_social--text">
+                        Login with your Social Account
+                      </p>
+                      <div class="form__social">
+                        <a href="#!" class="facebook"
+                          ><i class="fa-brands fa-square-facebook"></i
+                        ></a>
+                        <a href="#!" class="twitter"
+                          ><i class="fa-brands fa-twitter"></i
+                        ></a>
+                        <a href="#!" class="twitch"
+                          ><i class="fa-brands fa-twitch"></i
+                        ></a>
+                        <a href="#!" class="youtube"
+                          ><i class="fa-brands fa-youtube"></i
+                        ></a>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                
+                <div class="register-form">
+                  <div class="custom-form">
+                    <div class="jet-plane">
+                      <img src="../assets/jet-plane.png" alt="form" />
+                    </div>
+                    <h3 class="form__heading">Create your Account!</h3>
+                    <!-- Form -->
+                    <form class="form">
+                      <div class="row">
+                        <div class="col-12">
+                          <div class="input-group">
+                            <input
+                              type="email"
+                              placeholder=" "
+                              id="your-email"
+                            />
+                            <label for="your-email">Your Email</label>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <div class="input-group">
+                            <input type="text" placeholder=" " id="Username" />
+                            <label for="Username">Username</label>
+                          </div>
+                        </div>
+                        
+                        <div class="col-12">
+                          <div class="input-group">
+                            <input
+                              type="password"
+                              placeholder=" "
+                              id="password"
+                            />
+                            <label for="password">Password</label>
+                          </div>
+                        </div>
+                        
+                        <div class="col-12">
+                          <div class="input-group">
+                            <input
+                              type="password"
+                              placeholder=" "
+                              id="re-password"
+                            />
+                            <label for="re-password">Repeat Password</label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form__row">
+                        <label
+                          ><input type="checkbox" checked hidden />
+                          <span></span>Send me news and updates via email</label
+                        >
+                      </div>
+                      <div class="form__btn">
+                        <button class="btn" type="submit">Register Now!</button>
+                      </div>
+                      <p class="form_social--text">
+                        You'll receive a confirmation email in your inbox with a
+                        link to activate your account. If you have any problems,
+                        <a href="#!">contact us</a>
+                      </p>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
