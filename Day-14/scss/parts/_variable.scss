@@ -1,0 +1,356 @@
+$fontFamily: Inter, sans-serif;
+
+$whiteColor: #fff;
+$textColor: #2c2c2c;
+$linkColor: #2c2c2c;
+$bgColor: #2c2c2c;
+
+$greenMain: #46b20f;
+$orangeMain: #e05000;
+$greyMain: #a3a3a3;
+// green color
+$green-100: #f2ffec;
+$green-200: #dcffca;
+$green-300: #c5ffa8;
+$green-400: #aeff86;
+$green-500: #98ff64;
+$green-600: #81ff41;
+$green-700: #63db25;
+$green-800: #46b20f;
+$green-900: #2e8900;
+$green-1000: #216000;
+
+// orange color
+$orange-100: #fff0e7;
+$orange-200: #ffd5bd;
+$orange-300: #ffba94;
+$orange-400: #ff9f6a;
+$orange-500: #ff8440;
+$orange-600: #ff6916;
+$orange-700: #e05000;
+$orange-800: #b74200;
+$orange-900: #8e3300;
+$orange-1000: #662400;
+
+// grey color
+$grey-100: #f4f4f4;
+$grey-200: #e0e0e0;
+$grey-300: #cbcbcb;
+$grey-400: #b7b7b7;
+$grey-500: #a3a3a3;
+$grey-600: #8e8e8e;
+$grey-700: #7a7a7a;
+$grey-800: #656565;
+$grey-900: #515151;
+$grey-1000: #3d3c3c;
+
+// text in 1900 px screen
+h1 {
+  font-size: 4.4rem;
+  font-weight: 800;
+  line-height: 131.523%;
+  color: $textColor;
+}
+h2 {
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 131.523%;
+  color: $textColor;
+}
+h3 {
+  font-size: 2.8rem;
+  font-weight: 600;
+  line-height: 3.2rem;
+  color: $textColor;
+}
+h4 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 3.2rem;
+}
+p,
+a {
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 153.125%;
+  color: $textColor;
+}
+
+input {
+  padding: 16px;
+  color: $grey-500;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 32px;
+  border-radius: 8px;
+  border: 1px solid $grey-500;
+}
+
+textarea {
+  border-radius: 8px;
+  border: 1px solid $grey-500;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: $grey-500;
+  height: 178px;
+  width: 100%;
+  margin-top: 32px;
+}
+
+@media screen and (max-width: 1499.98px) {
+  h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 131.523%;
+    color: $textColor;
+  }
+  h2 {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 131.523%;
+    color: $textColor;
+  }
+  h3 {
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 3.2rem;
+    color: $textColor;
+  }
+  h4 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 3.2rem;
+  }
+  p,
+  a {
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 153.125%;
+    color: $textColor;
+  }
+}
+@media screen and (max-width: 1399.98px) {
+  h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 131.523%;
+    color: $textColor;
+  }
+  h2 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 131.523%;
+    color: $textColor;
+  }
+  h3 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 3.2rem;
+    color: $textColor;
+  }
+  h4 {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 3.2rem;
+  }
+  p,
+  a {
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 153.125%;
+    color: $textColor;
+  }
+}
+@media screen and (max-width: 1199.98px) {
+  h1 {
+    font-size: 2.8rem;
+    font-weight: 800;
+    line-height: 131.523%;
+    color: $textColor;
+  }
+  h2 {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 131.523%;
+    color: $textColor;
+  }
+  h3 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 3.2rem;
+    color: $textColor;
+  }
+  h4 {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 3.2rem;
+  }
+  p,
+  a {
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 153.125%;
+    color: $textColor;
+  }
+  input {
+    padding: 12px;
+    color: $grey-500;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+    border-radius: 8px;
+    border: 1px solid $grey-500;
+  }
+
+  textarea {
+    border-radius: 8px;
+    border: 1px solid $grey-500;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: $grey-500;
+    height: 178px;
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 991.98px) {
+  h1 {
+    font-size: 2.4rem;
+    font-weight: 800;
+    line-height: 131.523%;
+    color: $textColor;
+  }
+  h2 {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 131.523%;
+    color: $textColor;
+  }
+  h3 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 3.2rem;
+    color: $textColor;
+  }
+  h4 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 2.2rem;
+  }
+  p,
+  a {
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 153.125%;
+    color: $textColor;
+  }
+  a:hover {
+    color: $orangeMain;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  h1 {
+    font-size: 2.2rem;
+    font-weight: 800;
+    line-height: 131.523%;
+    color: $textColor;
+  }
+  h2 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 131.523%;
+    color: $textColor;
+  }
+  h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.2rem;
+    color: $textColor;
+  }
+  p,
+  a {
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 153.125%;
+    color: $textColor;
+  }
+}
+@media screen and (max-width: 575.98px) {
+  h1 {
+    font-size: 2.4rem;
+    font-weight: 800;
+    line-height: 131.523%;
+    color: $textColor;
+  }
+  h2 {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 131.523%;
+    color: $textColor;
+  }
+  h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2rem;
+    color: $textColor;
+  }
+  p,
+  a {
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 153.125%;
+    color: $textColor;
+  }
+}
+@media screen and (max-width: 460.98px) {
+  h1 {
+    font-size: 2.2rem;
+    font-weight: 800;
+    line-height: 131.523%;
+    color: $textColor;
+  }
+  h2 {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 131.523%;
+    color: $textColor;
+  }
+  h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 2rem;
+    color: $textColor;
+  }
+  p,
+  a {
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 153.125%;
+    color: $textColor;
+  }
+}

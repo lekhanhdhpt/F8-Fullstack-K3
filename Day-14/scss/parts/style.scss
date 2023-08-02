@@ -1,0 +1,20 @@
+// Import Parts
+@import '../parts/variable';
+@import '../parts/reset';
+@import '../parts/base';
+@import '../parts/mixin';
+
+// Import Layouts
+@import '../layouts/header';
+@import '../layouts/footer';
+@import '../layouts/hero';
+@import '../layouts/quality';
+@import '../layouts/product';
+@import '../layouts/new';
+@import '../layouts/protect';
+@import '../layouts/service';
+// @import '../layouts/calltoaction';
+
+// Import Components
+@import '../components/button';
+@import '../components/circlebg';
