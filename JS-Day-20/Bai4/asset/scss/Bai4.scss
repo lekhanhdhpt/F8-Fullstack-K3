@@ -1,0 +1,23 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+#dataContainer {
+	padding: 20px;
+	width: 60%;
+	margin: 0 auto;
+}
+.dataItem {
+	display: flex;
+	align-items: center;
+	padding: 20px;
+	gap: 20px;
+	border-bottom: 1px solid #cdcbcb;
+	&:nth-child(2) {
+		flex-direction: row-reverse;
+	}
+	&:nth-child(4) {
+		flex-direction: row-reverse;
+	}
+}
