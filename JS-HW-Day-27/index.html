@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../JS-HW-Day-27/style.css" />
+  </head>
+  <body>
+    <section class="product-list-section">
+      <h3>DANH SÁCH SẢN PHẨM</h3>
+      <table id="productTable">
+        <thead>
+          <tr>
+            <th width="5%">STT</th>
+            <th>Tên sản phẩm</th>
+            <th width="10%">Giá</th>
+            <th width="10%">Thêm vào giỏ</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Sản phẩm 1</td>
+            <td>1000</td>
+            <td>
+              <input
+                type="number"
+                id="quantity-1"
+                value="1"
+                min="0"
+                style="width: 90%; display: block; margin: 0 auto"
+              />
+              <button
+                onclick="addItem(1)"
+                style="width: 100%"
+                class="add-to-cart"
+              >
+                Thêm vào giỏ
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Sản phẩm 2</td>
+            <td>2000</td>
+            <td>
+              <input
+                type="number"
+                id="quantity-2"
+                value="1"
+                style="width: 90%; display: block; margin: 0 auto"
+              />
+              <button
+                onclick="addItem(2)"
+                style="width: 100%"
+                class="add-to-cart"
+              >
+                Thêm vào giỏ
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Sản phẩm 3</td>
+            <td>3000</td>
+            <td>
+              <input
+                type="number"
+                id="quantity-3"
+                value="1"
+                style="width: 90%; display: block; margin: 0 auto"
+              />
+              <button
+                onclick="addItem(3)"
+                style="width: 100%"
+                class="add-to-cart"
+              >
+                Thêm vào giỏ
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Sản phẩm 4</td>
+            <td>4000</td>
+            <td>
+              <input
+                type="number"
+                id="quantity-4"
+                value="1"
+                style="width: 90%; display: block; margin: 0 auto"
+              />
+              <button
+                onclick="addItem(4)"
+                style="width: 100%"
+                class="add-to-cart"
+              >
+                Thêm vào giỏ
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="cart-section">
+      <h3>GIỎ HÀNG</h3>
+      <table id="cartTable" style="display: none">
+        <tr>
+          <th>Tên sản phẩm</th>
+          <th>Số lượng</th>
+          <th>Tổng giá tiền</th>
+          <th>Xóa</th>
+        </tr>
+      </table>
+      <p id="totalPrice"></p>
+    </section>
+    <script src="../JS-HW-Day-27/script.js"></script>
+  </body>
+</html>
