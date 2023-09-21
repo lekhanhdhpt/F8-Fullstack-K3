@@ -51,10 +51,6 @@ body {
   font-weight: bold;
 }
 
-.dragging {
-  background-color: #c3e794;
-}
-
 .modules > span {
   color: #fff;
 }
