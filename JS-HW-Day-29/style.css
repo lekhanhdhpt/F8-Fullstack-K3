@@ -1,0 +1,60 @@
+:root {
+  --main-color: #ffffff;
+  --secondary-color: #76b6ee;
+  --text-color: #333;
+  --font-size: 1.3rem;
+  --border-radius: 5px;
+}
+
+body {
+  background: #fff;
+  margin: 0;
+  padding: 50px 0px;
+}
+
+.list {
+  background: var(--main-color);
+  max-width: 50%;
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: var(--border-radius);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+.list-element {
+  font-weight: bold;
+  background: var(--secondary-color);
+  padding: 1.4rem;
+  border: 1px solid #d1d1d1;
+  margin-bottom: 10px;
+  border-radius: var(--border-radius);
+  align-items: center;
+  cursor: pointer;
+  font-size: var(--font-size);
+  transition: background-color 0.4s ease;
+}
+
+.list-element span {
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+.placeholder {
+  background: #e0e0e0;
+  height: 40px;
+  border-radius: var(--border-radius);
+}
+
+.modules {
+  background: #ff6f00;
+  color: white;
+  font-weight: bold;
+}
+
+.dragging {
+  background-color: #c3e794;
+}
+
+.modules > span {
+  color: #fff;
+}

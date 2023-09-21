@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tin tức Việt Nam</title>
+    <link rel="stylesheet" href="../JS-HW-Day-23/assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+        <div class="header-action">
+            <!-- Nút Đăng ký -->
+            <div class="header-register" onclick="showLoginForm()">
+              <p>Đăng nhập</p>
+              <i class="fa-regular fa-user"></i>
+            </div>
+            <div class="search">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div id="authForm" class="hidden">
+      <div class="form-overlay"></div>
+      <div class="form">
+        <!-- tab header -->
+        <div class="tab-header">
+          <div class="active">Đăng Nhập</div>
+          <div>Đăng Ký</div>
+        </div>
+
+        <!-- tab content -->
+        <div class="tab-content">
+          <!-- form đăng nhập -->
+          <div class="tab-body active">
+            <p>với các tài khoản mạng xã hội</p>
+            <div class="signup-social">
+              <div class="signup-social_link">
+                <i class="fa-brands fa-google"></i>
+                Google
+              </div>
+              <div class="signup-social_link">
+                <i class="fa-brands fa-facebook"></i>
+                Facebook
+              </div>
+            </div>
+            <div class="blank">hoặc</div>
+            <form action="#" id="signup">
+              <!-- input email -->
+              <div class="input emailBox">
+                <p>Email</p>
+                <input id="email" type="email" placeholder="Email" />
+                <span id="email-error" class="error email-error"></span>
+              </div>
+
+              <!-- input password -->
+              <div class="input passBox">
+                <p>Mật khẩu</p>
+                <input type="password" placeholder="Mật khẩu" id="password" />
+                <span id="password-error" class="error password-error"></span>
+              </div>
+            </form>
+            <p class="forgot-password"><a href="#">Quên mật khẩu ?</a></p>
+            <button class="btn" onclick="submit()">Đăng nhập</button>
+          </div>
+
+          <!-- form đăng ký -->
+          <div class="tab-body">
+            <p class="decs">Hoàn thành đăng ký, và bắt đầu trải nghiệm ngay!</p>
+            <form action="register">
+              <div class="input register-name">
+                <p>Họ và tên</p>
+                <input type="text" placeholder="Họ và tên" />
+              </div>
+              <div class="input register-email">
+                <p>Email</p>
+                <input type="email" placeholder="Email" />
+              </div>
+              <div class="input register-password">
+                <p>Mật khẩu</p>
+                <input type="password" placeholder="Mật khẩu" />
+              </div>
+            </form>
+            <p>
+              Bằng cách đăng ký tài khoản, bạn cũng đồng thời chấp nhận mọi
+              <a href="#">điều kiện về qui định và chính sách của Dân trí</a>
+            </p>
+            <button class="btn">Đăng ký</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../JS-HW-Day-23/assets/js/bai1.js"></script>
+  </body>
+</html>

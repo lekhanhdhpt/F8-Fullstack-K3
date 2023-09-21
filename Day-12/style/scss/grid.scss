@@ -1,24 +1,4 @@
-/*
-Quy ước: Triển khai theo Mobile First
 
-.col-{number}: <576px
-.col-sm-{number}: >=576px
-.col-md-{number}: >=768px
-.col-lg-{number}: >=992px
-.col-xl-{number}: >=1200px
-.col-xxl-{number}: >=1400px
-
-Gutter
-spacer = 1rem
-g-0 => Khoảng cách cột và hàng = 0
-g-1 => 0.25 * spacer
-g-2 => 0.5 * spacer
-g-3 => spacer
-g-4 => 1.5 * spacer
-g-5 => 3 * spacer
-
-
-*/
 * {
     padding: 0;
     margin: 0;

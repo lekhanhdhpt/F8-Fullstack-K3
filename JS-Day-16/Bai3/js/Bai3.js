@@ -10,3 +10,5 @@ function findMax(a, b, c) {
 }
 
 console.log(findMax(3, 5, 9));
+
+

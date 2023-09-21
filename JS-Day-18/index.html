@@ -1,22 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-        p {
-            font-size: large;
-            margin: 200 auto;
-        }
+      p {
+        font-size: large;
+        margin: 200 auto;
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <p id="Text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus repellendus nulla amet! Maiores expedita temporibus nostrum quidem, similique ratione sequi, dolore enim sit quam aut iusto neque! Optio, sapiente vitae.
-      </p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+      repellendus nulla amet! Maiores expedita temporibus nostrum quidem,
+      similique ratione sequi, dolore enim sit quam aut iusto neque! Optio,
+      sapiente vitae.
+    </p>
 
     <script src="../JS-Day-18/js/homework.js"></script>
-</body>
+  </body>
 </html>
+<!-- Code feedback
+
+    <style>
+  .highlight {
+    background-color: yellow;
+    color: red;
+    text-shadow: -0.2px -0.2px 0 red, 0.2px -0.2px 0 red, -0.2px 0.2px 0 red, 0.2px
+        0.2px 0 red;
+  }
+</style>
+<p class="content">
+  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit, amet.
+</p>
+<script>
+  const $ = (tag) => document.querySelector(tag);
+  const saveContent = $(".content").innerText.trim();
+  let content = saveContent.split(" "),
+    i = 0;
+  function resetContent() {
+    $(".content").innerHTML = saveContent;
+    i = 0;
+    content = saveContent.split(" ");
+  }
+  function highlightWord() {
+    if (i >= content.length) return resetContent();
+    for (let j = 0; j < i; j++)
+      content[j] = content[j]
+        .replace('<span class="highlight">', "")
+        .replace("</span>", "");
+    const span = document.createElement("span");
+    span.className = "highlight";
+    span.innerText = content[i];
+    content[i] = span.outerHTML;
+    $(".content").innerHTML = content.join(" ");
+    i++;
+  }
+  setInterval(highlightWord, 500);
+</script>
+
+
+-->
