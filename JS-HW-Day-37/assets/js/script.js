@@ -136,9 +136,16 @@ const handleScroll = () => {
 };
 
 const renderDefault = () => {
-  root.innerHTML = `<h1>Blogger</h1>
-      <button type="submit" class="btn btn-primary">Login</button>
-      <div class="block-list"></div>`;
+  root.innerHTML = `<div class="container">
+  <h1 class="text-center mt-5 fw-bold">Blogger</h1>
+  <div class="d-flex justify-content-center mt-5">
+      <button type="submit" class="btn btn-primary">LOGIN</button>
+    </div>
+  <div class="block-list">
+    <div class="block">
+      <h2 class="block-title fw-bold">This is the latest post on your blog</h2>
+    </div>
+</div>`;
   currentPage = 1;
   fetchData();
 };
