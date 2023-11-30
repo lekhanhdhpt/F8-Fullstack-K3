@@ -1,0 +1,26 @@
+.trello .list-column {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.trello .list-column .btn-add-column .icon-add {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 10px;
+}
+
+.trello .list-column .btn-add-column {
+  width: 350px;
+  background-color: #ffffff52;
+  font-size: 1.5rem;
+  padding: 7px;
+  border-radius: 10px;
+  color: #111111;
+}
+
+.trello .list-column .btn-add-column:hover {
+  background-color: transparent;
+  color: #3498db;
+  border-color: #3498db;
+}

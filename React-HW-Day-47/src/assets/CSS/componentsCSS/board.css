@@ -1,0 +1,15 @@
+.trello .board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: fit-content;
+  min-height: 100vh;
+  background-color: rgb(70, 153, 227);
+  padding: 50px 100px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out;
+}
+
+.trello .board h1 {
+  color: white;
+}
